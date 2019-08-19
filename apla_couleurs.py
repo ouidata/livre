@@ -5,15 +5,14 @@ import cv2
 import numpy as np
 print("toot")
 # Stored all RGB values of main colors in a array
-main_colors = [(0, 0, 0),
-               (255, 255, 255),
-               (255, 0, 0),
-               (0, 255, 0),
-               (0, 0, 255),
-               (255, 255, 0),
-               (0, 255, 255),
-               (255, 0, 255),
-               (198, 152, 126),
+main_colors = [(0, 0, 0), #noir
+               (255, 255, 255), #blanc
+               (255, 0, 0), # rouge
+               (0, 255, 0), #vert
+               (0, 0, 255), #bleu
+               (255, 255, 0), #jaune
+               (0, 255, 255), # bleu clair
+               (255, 0, 255) # rose
                ]
 
 image = cv2.imread("visage.jpeg")

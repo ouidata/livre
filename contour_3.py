@@ -4,7 +4,7 @@ from matplotlib import pyplot as plt
 
 img = cv.imread('visage.jpeg')
 mask = np.zeros(img.shape[:2],np.uint8)
-cv.imshow("mask", mask)
+cv.imshow("mask", img)
 bgdModel = np.zeros((1,65),np.float64)
 fgdModel = np.zeros((1,65),np.float64)
 rect = (50,50,450,290)
